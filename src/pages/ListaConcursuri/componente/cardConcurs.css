@@ -1,0 +1,204 @@
+.cardConcurs {
+    width: 100%;
+    background: var(--gold-gradient);
+    border-radius: .5rem;
+    padding: .25rem;
+    transition: .5s ease-in-out;
+}
+
+.cardConcurs img {
+    height: 2rem;
+    margin: 0 1rem;
+    transition: .2s ease-in-out;
+}
+
+.cardConcurs:hover .starIcon{
+    scale: 1.2;
+    filter: drop-shadow(0px 0px 3px white);
+}
+
+
+.titleWrapper {
+    display: flex;
+    background-color: var(--red-accent);
+    border-radius: .25rem;
+    padding: .5rem;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardTitle {
+    display: flex;
+    flex-direction: column;
+}
+
+.titleWrapper h1 {
+    font-size: clamp(1rem, 5vh, 5rem);
+    flex: 1;
+    font-family: Ubuntu;
+    color: white;
+    transition: .5s ease-out;
+    text-align: center;
+}
+
+.cardInfo {
+    height: auto;
+    margin-top: .25rem;
+    border-radius: .25rem;
+    background-color: rgba(108,0,59,0.5);
+    padding: .25rem .5rem;
+}
+
+.infoBanner {
+    background-color: var(--dark-accent);
+    padding: .5rem;
+    margin: .5rem 0;
+    border-radius: .5rem;
+}
+
+.infoBanner p {
+    color: rgb(247, 255, 212);
+    font-family: Ubuntu;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.inscriete {
+    background-color: var(--light-color);
+    padding: .5rem;
+    min-width: 10rem;
+    text-align: center;
+    font-family: Ubuntu;
+    font-weight: bold;
+    color: var(--dark-accent);
+    border-radius: .25rem;
+    cursor: pointer;
+}
+
+.plata {
+    border-top: 3px solid var(--light-color);
+    border-bottom: 3px solid var(--light-color);
+    margin: 1rem 0;
+    padding: 1rem 0;    
+}
+
+.taxa {
+    display: flex;
+    gap: .5rem;
+}
+
+.taxaCard {
+    flex: 1;
+    background: var(--gold-gradient);
+    border-radius: .5rem;
+    padding: .25rem;
+}
+
+.taxaCard:hover {
+    background: rgb(255, 255, 146);
+}
+
+.taxaCard .content {
+    border-radius: .25rem;
+    background-color: var(--red-accent);
+    padding: .5rem;
+    text-align: center;
+    font-family: Ubuntu;
+    font-weight: bold;
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pret {
+    margin: 1rem 0;
+    color: rgb(255, 255, 146);
+   
+}
+
+.metodaPlata {
+    background-color: var(--light-color);
+    border-radius: .5rem;
+    padding: .5rem;
+    display: flex;
+    margin: .5rem 0;
+    align-items: center;
+}
+
+.metodaPlata:hover {
+    outline: 3px solid var(--red-accent);
+}
+
+.metodaPlata p {
+    flex: 1;
+    text-align: right;
+    padding-right: 2rem;
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+
+.regulament {
+    padding: .5rem;
+    background-color: var(--light-color);
+    border: 3px solid var(--red-accent);
+    border-radius: 999px;
+    font-family: Ubuntu;
+    font-weight: bold;
+    color: var(--dark-accent);
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+.regulament:hover {
+    background: rgb(255, 255, 146);
+}
+
+@media  ( width > 1000px ){
+   .cardTitle, .titleWrapper {
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+   }
+   .cardTitle h1 {
+    text-align: left;
+   }
+   
+   .cardInfoDivider {
+    display: flex;
+    gap: 1rem;
+   }
+
+   .cardInfoSection {
+    flex: 1;
+   }
+
+   .plata {
+    border: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+   }
+
+   .plata .taxaWrap {
+    flex: 1;
+   }
+
+
+   .taxa {
+    height: 100%;
+   }
+
+   .regulament {
+    margin-top: 1rem;
+   }
+
+}

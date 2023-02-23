@@ -1,0 +1,18 @@
+nav {
+    width: 100%;
+    padding: 1rem;
+    background: var(--red-accent);
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+nav img {
+    height: 5rem;
+}
+
+nav h1 {
+    font-family: Ubuntu;
+    color: var(--light-color);
+    font-size: 2rem;
+}

@@ -1,0 +1,13 @@
+.listaConcursuri {
+    width: 95%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+@media  ( width > 1000px ){
+    .listaConcursuri {
+        width: 85%;
+    }
+}

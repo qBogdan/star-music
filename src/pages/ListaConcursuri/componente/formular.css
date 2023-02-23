@@ -1,0 +1,60 @@
+.formular form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+form input, form textarea {
+    text-indent: 1rem;
+    border-radius: 1rem;
+    padding: .5rem;
+    outline: none;
+    border: 3px solid var(--red-accent);
+}
+
+form input {
+    border-radius: 999px;
+}
+
+.submit {
+    width: 100%;
+    cursor: pointer;
+    background: var(--gold-gradient);
+    padding: .25rem;
+    border-radius: 999px;
+}
+
+.categorii {
+    padding: .5rem;
+    background-color: var(--light-color);
+    border: 3px solid var(--red-accent);
+    border-radius: 999px;
+    font-family: Ubuntu;
+    font-weight: bold;
+    color: var(--dark-accent);
+    text-align: center;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.categorii:hover {
+    background: rgb(255, 255, 146);
+}
+
+form input[type=submit] {
+    width: 100%;
+    cursor: pointer;
+    background-color: var(--red-accent);
+    border: none;
+    border-radius: 999px;
+    color: white;
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+
+.submit:hover {
+    background: rgb(255, 255, 146);
+}
+
