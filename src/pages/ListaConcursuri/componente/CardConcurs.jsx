@@ -33,9 +33,9 @@ function CardConcurs({ concurs }) {
                         <p>COSTEL OPREA - 0744.234.744</p>
                     </div>
                     <div className="cardInfoDivider">
-                        <div className="cardInfoSection">
+                        {/* <div className="cardInfoSection">
                             <Formular />
-                        </div>
+                        </div> */}
                         <div className="cardInfoSection">
                             <DetaliiPlata concurs={concurs} />
                         </div>
