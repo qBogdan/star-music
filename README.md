@@ -2,9 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Available Scripts ngx-markdown
 
-In the project directory, you can run:
+
+In the project directory, you can run:![image](https://github.com/qBogdan/star-music/assets/90521369/3318cbd1-b7e4-4426-878e-8ceb4e65c297) sadadadadad
+
 
 ### `npm start`
 
